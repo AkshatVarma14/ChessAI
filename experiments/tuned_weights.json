@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "format_version": "1.0",
+    "total_generations": 5,
+    "population_size": 12,
+    "random_seed": 42,
+    "duration_seconds": 1.67,
+    "baseline_training_fitness": 98.8469,
+    "best_training_fitness": 98.9791,
+    "baseline_validation_fitness": 99.162,
+    "best_validation_fitness": 99.1955
+  },
+  "genes": {
+    "pawn_value": 104,
+    "knight_value": 317,
+    "bishop_value": 316,
+    "rook_value": 511,
+    "queen_value": 917,
+    "material_weight": 1.3117,
+    "pst_weight": 0.3511,
+    "mobility_weight": 0.5314,
+    "pawn_structure_weight": 0.561,
+    "center_control_weight": 1.0445,
+    "king_safety_weight": 0.7847,
+    "coordination_weight": 0.9847
+  },
+  "training_breakdown": {
+    "positional_score": 98.3,
+    "tactical_score": 100.0,
+    "symmetry_score": 100.0,
+    "total_fitness": 98.9791,
+    "positional_accuracy": 100.0,
+    "tactical_accuracy": 100.0,
+    "positional_positions_evaluated": 22.0,
+    "tactical_positions_evaluated": 4.0
+  },
+  "validation_breakdown": {
+    "validation_fitness": 99.1955,
+    "positional_score": 98.66,
+    "tactical_score": 100.0,
+    "positional_accuracy": 100.0,
+    "tactical_accuracy": 100.0,
+    "positional_correct": 15,
+    "positional_total": 15,
+    "tactical_correct": 2,
+    "tactical_total": 2
+  }
+}
