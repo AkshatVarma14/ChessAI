@@ -1,0 +1,21 @@
+# Chess AI - Core Dependencies
+# Target Runtime: Python 3.12+ (Recommended: Python 3.12.10 LTS / stable)
+# Specification Note: Dependencies use bounded version ranges (>=, <) for compatibility.
+# Exact lockfiles are produced in virtual environments via pip freeze.
+
+# Web Framework & API
+fastapi>=0.110.0,<1.0.0
+uvicorn[standard]>=0.28.0,<1.0.0
+pydantic>=2.6.0,<3.0.0
+
+# Chess Rules Engine (Authoritative rules, legal move generation, FEN/PGN, terminal states ONLY)
+# python-chess is the PyPI distribution for the 'chess' library (import chess)
+python-chess>=1.999
+
+# Scientific & Optimization (for offline Genetic Algorithm parameter tuning ONLY)
+numpy>=1.26.0,<3.0.0
+
+# Testing & Quality Assurance
+pytest>=8.0.0,<9.0.0
+pytest-cov>=4.1.0,<6.0.0
+httpx>=0.27.0,<1.0.0
